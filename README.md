@@ -137,7 +137,7 @@ score = evaluator.evaluate(profile)
 ## Development
 
 ```bash
-git clone https://github.com/ForgeMind/chinese-semantic-relations.git
+git clone https://github.com/wongmei74/chinese-semantic-relations.git
 cd chinese-semantic-relations
 pip install -e ".[dev]"
 pytest

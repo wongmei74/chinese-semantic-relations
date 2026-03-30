@@ -40,9 +40,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ForgeMind/chinese-semantic-relations"
-Repository = "https://github.com/ForgeMind/chinese-semantic-relations"
-Issues = "https://github.com/ForgeMind/chinese-semantic-relations/issues"
+Homepage = "https://github.com/wongmei74/chinese-semantic-relations"
+Repository = "https://github.com/wongmei74/chinese-semantic-relations"
+Issues = "https://github.com/wongmei74/chinese-semantic-relations/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/chinese_semantic_relations"]
