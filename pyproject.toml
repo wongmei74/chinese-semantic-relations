@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chinese-semantic-relations"
+version = "0.1.0"
+description = "Zero-LLM bilingual (Chinese/English) semantic relation analyzer — 38 relation types across 8 branches, with challenge strategy mapping and quality scoring."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [
+    { name = "ForgeMind Contributors" },
+]
+keywords = [
+    "nlp",
+    "semantic-relations",
+    "chinese-nlp",
+    "text-analysis",
+    "zero-llm",
+    "regex",
+    "ontology",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: Chinese (Simplified)",
+    "Natural Language :: English",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/ForgeMind/chinese-semantic-relations"
+Repository = "https://github.com/ForgeMind/chinese-semantic-relations"
+Issues = "https://github.com/ForgeMind/chinese-semantic-relations/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/chinese_semantic_relations"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
